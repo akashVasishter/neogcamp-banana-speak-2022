@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana-speak</title>
     <style>
-    textarea {
+    #txt-input {
     
         width: 30%;
         height: 80px;
         display: block;
         padding: 2rem;
+        margin: 1rem;
 
         }
    
+        #output {
+
+           border: 1px solid black;
+           height: 80px;
+           width: 30%;
+           padding: 2rem;
+           margin: 1rem;
+        
+        }
    
       
     </style>
@@ -25,6 +35,8 @@
     <textarea id="txt-input"
     placeholder="Enter something so that we will convert to banana!"></textarea>
     <button id="btn-translate">Translate</button><br>
+    <div style="font-weight: bold;">Output will come here 👇</div>
+    <div id="output"></div>
     <script src="app.js" text="type/javascript"></script>
     
        
